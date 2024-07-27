@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Gemini-like clone")
 
-client = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.3)
+client = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.3, google_api_key="AIzaSyBnxPTTVS15s6VwAvARz7T9V5r0V8vbCjI")
 
 
 if "messages" not in st.session_state:
